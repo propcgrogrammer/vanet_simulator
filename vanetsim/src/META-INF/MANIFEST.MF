@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.codehaus.staxmate;uses:="javax.xml.stream,org.code
+ haus.stax2,org.codehaus.staxmate.in,javax.xml.transform,org.codehaus.
+ stax2.io,org.codehaus.stax2.ri,org.codehaus.staxmate.out",org.codehau
+ s.staxmate.in;uses:="org.codehaus.stax2,javax.xml.stream,org.codehaus
+ .stax2.typed,javax.xml.namespace,org.codehaus.stax2.ri.evt,javax.xml.
+ stream.util,javax.xml.stream.events",org.codehaus.staxmate.out;uses:=
+ "javax.xml.stream,org.codehaus.stax2,javax.xml.namespace",org.codehau
+ s.staxmate.dom;uses:="org.codehaus.stax2,javax.xml.stream,javax.xml.p
+ arsers,org.codehaus.stax2.ri,org.w3c.dom"
+Built-By: tsaloranta
+Tool: Bnd-0.0.357
+Bundle-Name: StaxMate
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: FasterXML.com
+Build-Jdk: 1.6.0_22
+Bundle-Version: 2.0.1
+Bnd-LastModified: 1290277388416
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.opensource.org/licenses/bsd-license.php
+Bundle-Description: StaxMate -- Perfect companion for your stax proces
+ sor
+Bundle-DocURL: http://www.codehaus.org/
+Bundle-SymbolicName: staxmate
+Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.stream
+ ,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,or
+ g.codehaus.stax2;version="3.0",org.codehaus.stax2.io;version="3.0",or
+ g.codehaus.stax2.ri;version="3.0",org.codehaus.stax2.ri.evt;version="
+ 3.0",org.codehaus.stax2.typed;version="3.0",org.w3c.dom
+
